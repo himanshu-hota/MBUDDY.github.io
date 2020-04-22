@@ -1,0 +1,77 @@
+body {
+  font-style: italic;
+}
+
+.size{
+
+  color:#c70039;
+
+}
+.wave {
+  outline: 0;
+
+}
+.pt-6{
+  padding-top:100px;
+}
+.box {
+padding:5% 8%;
+line-height: 1.9;
+text-align: center;
+
+}
+.align-center {
+  text-align: center;
+}
+.size:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.carousel-inner{
+    padding: 5% 10%;
+}
+
+.carss{
+  background-color: #c70039;
+
+}
+
+.pricing{
+  padding: 3% 10%;
+  text-align: center;
+
+}
+
+.text {
+  font-size:5vh;
+}
+.bg-new {
+  background-color:#eae7d9;
+}
+
+.social {
+  font-size: 2em;
+}
+
+.fab:hover{
+
+transform: rotate(360deg);
+transition:1s;
+
+}
+.far:hover{
+transform: rotate(360deg);
+transition:1s;
+
+}
+
+/* media queries */
+@media screen (max-width:350px) {
+  body{
+    text-align:center;
+  }
+.download{
+  padding: 20px;
+}
+}
